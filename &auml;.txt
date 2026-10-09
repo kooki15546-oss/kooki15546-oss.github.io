@@ -1,0 +1,16 @@
+&auml;
+
+.otsikko {
+	position: absolute;
+	font-family: Verdana, Arial;
+	font-size: 4.5vw;
+	left: 25vw;
+	top: 5%;
+	text-align: center;
+	background-color: #96E664;
+	padding: 2.5%;
+	border: 5px solid black;
+	border-radius: 2vw;
+
+
+käy tällä sivulla	--->	https://www.w3schools.com/css/tryit.asp?filename=trycss_website_layout_navbar

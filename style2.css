@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+.logo {
+	position: relative;
+	left: 42vw;
+	top: 10vw;
+}
+
+
+	.vaihtuvateksti {
+			position: absolute;
+			top: 35vw;
+			left: 42vw;
+			font-size: 3vw;
+			text-align: center;
+			display: flex;
+			animation-name: vaihtuvateksti;
+			animation-duration: 6s;
+			animation-iteration-count: infinite;
+}
+
+
+	
+@keyframes vaihtuvateksti {
+	0% {
+	color: #051E3E;
+	}
+	10% {
+		color: #051E3E;
+	}
+	30% {
+		color: white;
+	}
+	50% {
+		color: #051E3E;
+	}
+	60% {
+		color: #051E3E;
+	}
+	80% {
+		color: white;
+	}
+	100% {
+		color: #051E3E;
+	}
+}
+
+#Nettisivun:after {
+	content: "";
+	animation: spin 6s linear infinite;
+}
+
+@keyframes spin {
+30% { content:"Nettisivun"; }
+50% { content:"on"; }	
+60% { content:"tehnyt"; }
+100% { content:"Evert"}
+}
+
+
+}
+
+.otsikko {
+	font-family: Verdana, Arial;
+	font-size: 4vw;
+	text-align: center;
+	position: absolute;
+	left: 28vw;
+	top: 30vw;
+}
+
+/* Style the topnav */
+ul.topnav 
+
+		{
+	position: absolute;
+	top: 5vw;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+}
+
+/* Style links in topnav */
+ul.topnav li a {
+  display: block;
+  color: #f1f1f1;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+ul.topnav li a:hover {
+  background-color: #dddddd;
+  color: black;
+}
+
+(.nappiryhma button {
+	font-size: 3vw;
+	position: relative;
+	text-align: center;
+	width: 30vw;
+	left: 30vw;
+	top: 2vw;
+	padding: 7%;
+	background-color: skyblue; 
+	border: 2px solid black;
+	border-radius: 4vw;
+	float: left;
+	margin-top: 10vw;
+}
+
+.nappiryhma {
+	width: 5vw;
+}
+
+.nappiryhma:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.nappiryhma button:not(:last-child) {
+  border-right: none;
+}
+
+.nappiryhma button:hover {
+		backgróund-color: lightblue;
+		
+})
+
+
+
+
+
+	
+	
+	
+	
+
+

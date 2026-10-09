@@ -1,0 +1,32 @@
+
+
+body {
+
+	background-color: lightgray;
+	font-family: Verdana, Arial;
+}
+
+
+
+	.kokeilu {
+		position: absolute;
+		left: 800px;
+		top: 150px;	
+	}
+
+	#otsikko { 
+		font-size : 40px;
+		font-family : Courier New;
+		text-align: center;
+		color : gold;
+		background : navy;
+		width : 340px;
+		height : 60px;
+		padding : 60px;
+		border-radius : 20px;
+		position : absolute;
+		top : 30px;
+		left : 700px;
+
+
+
